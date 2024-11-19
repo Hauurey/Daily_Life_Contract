@@ -4,10 +4,10 @@ This Solidity program implements a simple contract for managing daily withdrawal
 ## Description
 The DailyLifeContract contract is designed to handle a balance with a maximum limit, allowing users to deposit and withdraw funds within specified limits. The key features include:
 
-- Balance Management: Users can add funds to the contract without exceeding a maximum balance limit.
-- Daily Withdrawals: Users can withdraw funds up to a specified daily limit, with each withdrawal requiring a multiple of 50 units.
-- Withdrawal Event: Each successful withdrawal triggers an event to track the transaction.
-- Daily Limit Reset: Users can reset their daily withdrawal limit if necessary.
+  - Balance Management: Users can add funds to the contract without exceeding a maximum balance limit.
+  - Daily Withdrawals: Users can withdraw funds up to a specified daily limit, with each withdrawal requiring a multiple of 50 units.
+  - Withdrawal Event: Each successful withdrawal triggers an event to track the transaction.
+  - Daily Limit Reset: Users can reset their daily withdrawal limit if necessary.
   
 This contract showcases the use of error handling to manage deposit and withdrawal operations, ensuring safe and secure operations on the Ethereum blockchain.
 
@@ -72,10 +72,10 @@ contract DailyLifeContract {
 5. To compile the code, go to the "Solidity Compiler" tab in the left sidebar of your IDE. Make sure the compiler version is set to 0.8.28 (or another compatible version), then click the "Compile DailyLifeContract.sol" button.
 6. Once compiled, deploy the contract by navigating to the "Deploy & Run Transactions" tab. Select DailyLifeContract from the dropdown menu, then click the "Deploy" button.
 7. After deployment, you can interact with the contract by calling its functions:
-- Use addFunds to deposit funds into the contract.
-- Use withdraw to withdraw funds while adhering to the daily limit and withdrawal conditions.
-- Use resetDailyLimit to reset the daily withdrawal limit for the caller.
-- Use checkBalance to verify the contract's balance.
+  - Use addFunds to deposit funds into the contract.
+  - Use withdraw to withdraw funds while adhering to the daily limit and withdrawal conditions.
+  - Use resetDailyLimit to reset the daily withdrawal limit for the caller.
+  - Use checkBalance to verify the contract's balance.
 
 ## Authors
 Metacrafter Carlo Jan Harry S. Añonuevo
